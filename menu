@@ -1,0 +1,11 @@
+nom = input("Ingrese su nombre: ")
+menu = 0
+while menu != 3:
+    menu = int(input("Seleccione una opción (1/2/3): "))
+    if menu == 1:
+        print("Hola "+nom+"!")
+    elif menu == 2:
+        print("Hasta luego "+nom+"!")
+    else:
+        print("valor ingresado no valido")
+print("Saliendo... Adios "+nom+"!")
